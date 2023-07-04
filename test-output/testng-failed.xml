@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FlightSearch(failed)">
+    <classes>
+      <class name="com.MavenTNG.FlightRunner$TestRunner">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="FlightSearch"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.MavenTNG.FlightRunner$TestRunner -->
+    </classes>
+  </test> <!-- FlightSearch(failed) -->
+</suite> <!-- Failed suite [Suite] -->
